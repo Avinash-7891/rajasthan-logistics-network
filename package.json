@@ -1,0 +1,28 @@
+{
+  "name": "rajasthan-logistics-network",
+  "version": "1.0.0",
+  "description": "Full MERN Stack Logistics Management Platform with Ported Graph Algorithms",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node backend/seed/seed.js",
+    "test:algo": "node backend/test_algorithms.js",
+    "backend": "npm --prefix backend run dev",
+    "frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "mern",
+    "logistics",
+    "rajasthan",
+    "graph-algorithms",
+    "dijkstra",
+    "kruskal",
+    "tarjan",
+    "dsu",
+    "bfs",
+    "nearest-neighbor",
+    "best-fit"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "ISC"
+}
